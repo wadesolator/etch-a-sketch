@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f9f9fa;
+}
+
+.main-content {
+  width: 60%;
+  min-width: 720px;
+  min-height: 480px;
+  border: 5pt solid black;
+  padding: 1% 1% 2%;
+  margin: 2% auto;
+  background-color: #cccccc;
+}
+
+h1 {
+  width: 60%;
+  padding: 2%;
+  margin: 0 auto;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.etch-container {
+  width: 480px;
+  height: 480px;
+  margin: 1% auto;
+  background-color: #ffffff;
+}
+
+.etch-container__ver {
+  display: flex;
+}
+
+.etch {
+  /*height: 4vh;
+  width: 4vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.etch--black {
+  /*width: 4vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.button-container {
+  margin: 1% auto;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  font-size: 2em;
+  margin: 1%;
+  padding: 1%;
+
+}
